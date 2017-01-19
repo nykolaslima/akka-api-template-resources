@@ -2,9 +2,46 @@
 <a name="top"/>
 
 ## Table of Contents
+* [RejectionResource.proto](#RejectionResource.proto)
+ * [RejectionResource](#com.akkaapitemplate.resources.RejectionResource)
+ * [RejectionsResource](#com.akkaapitemplate.resources.RejectionsResource)
 * [UserResource.proto](#UserResource.proto)
  * [UserResource](#com.akkaapitemplate.resources.UserResource)
 * [Scalar Value Types](#scalar-value-types)
+
+<a name="RejectionResource.proto"/>
+<p align="right"><a href="#top">Top</a></p>
+
+## RejectionResource.proto
+
+
+
+<a name="com.akkaapitemplate.resources.RejectionResource"/>
+### RejectionResource
+Rejection resource is a representation of any rejection in akkaapitemplate system.
+It could be a validation rejection or even a third party error.
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| category | [string](#string) | optional |  |
+| target | [string](#string) | optional |  |
+| message | [string](#string) | optional |  |
+| key | [string](#string) | optional |  |
+| args | [string](#string) | repeated |  |
+
+
+<a name="com.akkaapitemplate.resources.RejectionsResource"/>
+### RejectionsResource
+A list of rejections.
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| errors | [RejectionResource](#com.akkaapitemplate.resources.RejectionResource) | repeated |  |
+
+
+
+
+
 
 <a name="UserResource.proto"/>
 <p align="right"><a href="#top">Top</a></p>
@@ -15,7 +52,7 @@
 
 <a name="com.akkaapitemplate.resources.UserResource"/>
 ### UserResource
-User resource is a representation of any user in akkaapitemplate system
+User resource is a representation of any user in akkaapitemplate system.
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
