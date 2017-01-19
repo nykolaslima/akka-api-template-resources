@@ -9,7 +9,7 @@ option java_multiple_files = true;
 option java_package = "com.akkaapitemplate.resources";
 
 /**
- * User resource is a representation of any user in akkaapitemplate system
+ * User resource is a representation of any user in akkaapitemplate system.
  */
 message UserResource {
     string id = 1;
