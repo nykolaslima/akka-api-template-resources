@@ -2,12 +2,35 @@
 <a name="top"/>
 
 ## Table of Contents
+* [ErrorResource.proto](#ErrorResource.proto)
+ * [ErrorResource](#com.akkaapitemplate.resources.ErrorResource)
 * [RejectionResource.proto](#RejectionResource.proto)
  * [RejectionResource](#com.akkaapitemplate.resources.RejectionResource)
  * [RejectionsResource](#com.akkaapitemplate.resources.RejectionsResource)
 * [UserResource.proto](#UserResource.proto)
  * [UserResource](#com.akkaapitemplate.resources.UserResource)
 * [Scalar Value Types](#scalar-value-types)
+
+<a name="ErrorResource.proto"/>
+<p align="right"><a href="#top">Top</a></p>
+
+## ErrorResource.proto
+
+
+
+<a name="com.akkaapitemplate.resources.ErrorResource"/>
+### ErrorResource
+Error resource is a representation of any unexpected error in akkaapitemplate system.
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| request_id | [string](#string) | optional |  |
+| message | [string](#string) | optional |  |
+
+
+
+
+
 
 <a name="RejectionResource.proto"/>
 <p align="right"><a href="#top">Top</a></p>
