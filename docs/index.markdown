@@ -3,12 +3,12 @@
 
 ## Table of Contents
 * [ErrorResource.proto](#ErrorResource.proto)
- * [ErrorResource](#com.akkaapitemplate.resources.ErrorResource)
+ * [ErrorResource](#com.nykolaslima.akkaapitemplate.resources.ErrorResource)
 * [RejectionResource.proto](#RejectionResource.proto)
- * [RejectionResource](#com.akkaapitemplate.resources.RejectionResource)
- * [RejectionsResource](#com.akkaapitemplate.resources.RejectionsResource)
+ * [RejectionResource](#com.nykolaslima.akkaapitemplate.resources.RejectionResource)
+ * [RejectionsResource](#com.nykolaslima.akkaapitemplate.resources.RejectionsResource)
 * [UserResource.proto](#UserResource.proto)
- * [UserResource](#com.akkaapitemplate.resources.UserResource)
+ * [UserResource](#com.nykolaslima.akkaapitemplate.resources.UserResource)
 * [Scalar Value Types](#scalar-value-types)
 
 <a name="ErrorResource.proto"/>
@@ -18,7 +18,7 @@
 
 
 
-<a name="com.akkaapitemplate.resources.ErrorResource"/>
+<a name="com.nykolaslima.akkaapitemplate.resources.ErrorResource"/>
 ### ErrorResource
 Error resource is a representation of any unexpected error in akkaapitemplate system.
 
@@ -39,7 +39,7 @@ Error resource is a representation of any unexpected error in akkaapitemplate sy
 
 
 
-<a name="com.akkaapitemplate.resources.RejectionResource"/>
+<a name="com.nykolaslima.akkaapitemplate.resources.RejectionResource"/>
 ### RejectionResource
 Rejection resource is a representation of any rejection in akkaapitemplate system.
 It could be a validation rejection or even a third party error.
@@ -53,13 +53,13 @@ It could be a validation rejection or even a third party error.
 | args | [string](#string) | repeated |  |
 
 
-<a name="com.akkaapitemplate.resources.RejectionsResource"/>
+<a name="com.nykolaslima.akkaapitemplate.resources.RejectionsResource"/>
 ### RejectionsResource
 A list of rejections.
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| errors | [RejectionResource](#com.akkaapitemplate.resources.RejectionResource) | repeated |  |
+| errors | [RejectionResource](#com.nykolaslima.akkaapitemplate.resources.RejectionResource) | repeated |  |
 
 
 
@@ -73,7 +73,7 @@ A list of rejections.
 
 
 
-<a name="com.akkaapitemplate.resources.UserResource"/>
+<a name="com.nykolaslima.akkaapitemplate.resources.UserResource"/>
 ### UserResource
 User resource is a representation of any user in akkaapitemplate system.
 
