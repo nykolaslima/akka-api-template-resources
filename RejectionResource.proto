@@ -3,10 +3,10 @@ syntax = "proto3";
 /**
  * All messages related with akkaapitemplate
  */
-package com.akkaapitemplate.resources;
+package com.nykolaslima.akkaapitemplate.resources;
 
 option java_multiple_files = true;
-option java_package = "com.akkaapitemplate.resources";
+option java_package = "com.nykolaslima.akkaapitemplate.resources";
 
 /**
  * Rejection resource is a representation of any rejection in akkaapitemplate system.
